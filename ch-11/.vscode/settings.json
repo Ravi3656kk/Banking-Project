@@ -1,0 +1,6 @@
+{
+      "git.useIntegratedAskPass": false,
+      "task.allowAutomaticTasks": "off",
+      "task.autoDetect": "off",
+      "task.reconnection": false
+}

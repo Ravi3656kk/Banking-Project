@@ -1,0 +1,14 @@
+if __name__ == "__main__":
+      a = int(input("enter number 1: "))
+      b = int(input("enter number 2: "))
+      c = int(input("enter number 3: "))
+      d = int(input("enter number 4: "))
+      e = int(input("enter number 5: "))
+
+      print("multiplication is: ", a*b*c*d*e)
+      print("addition is: ", a+b+c+d+e)
+      print("average is: ", (a+b+c+d+e)/5)
+      if d != 0:
+          print("bodmas", a + b * c / d - e)
+      else:
+          print("Error: Division by zero is not allowed.")
